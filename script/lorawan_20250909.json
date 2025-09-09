@@ -1,0 +1,55 @@
+{
+    "deduplicationId": "13755108-894f-4381-a403-0c6adc6cf8d0",
+    "time": "2025-09-09T07:12:15.378+00:00",
+    "deviceInfo": {
+        "tenantId": "88b89828-947d-4400-8c7c-f2adb3744650",
+        "tenantName": "ChirpStack",
+        "applicationId": "c2b0434f-117e-4bf7-9c82-08832d0656d8",
+        "applicationName": "Sensor",
+        "deviceProfileId": "78d229f1-e3e8-4773-aada-1f4d00fdfa57",
+        "deviceProfileName": "EM300-TH",
+        "deviceName": "Sensor",
+        "devEui": "24e124136f069492",
+        "deviceClassEnabled": "CLASS_A",
+        "tags": {}
+    },
+    "devAddr": "009825bc",
+    "adr": true,
+    "dr": 5,
+    "fCnt": 18,
+    "fPort": 85,
+    "confirmed": false,
+    "data": "A2cMAQRocg==",
+    "object": {
+        "humidity": 57.0,
+        "temperature": 26.8
+    },
+    "rxInfo": [
+        {
+            "gatewayId": "24e124fffefee19e",
+            "uplinkId": 51842,
+            "gwTime": "2025-09-09T07:12:15.378417+00:00",
+            "nsTime": "2025-09-09T07:12:15.336977220+00:00",
+            "timeSinceGpsEpoch": "1441437153.378s",
+            "rssi": -46,
+            "snr": 13.2,
+            "location": {
+                "latitude": 37.397253169618416,
+                "longitude": 126.97388267730398
+            },
+            "context": "Vapiig==",
+            "crcStatus": "CRC_OK"
+        }
+    ],
+    "txInfo": {
+        "frequency": 922100000,
+        "modulation": {
+            "lora": {
+                "bandwidth": 125000,
+                "spreadingFactor": 7,
+                "codeRate": "CR_4_5"
+            }
+        }
+    },
+    "regionConfigId": "kr920"
+}
